@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  developer-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5001:3000"
